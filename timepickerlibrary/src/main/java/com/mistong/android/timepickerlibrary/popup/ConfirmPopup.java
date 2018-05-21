@@ -314,6 +314,7 @@ public abstract class ConfirmPopup<V extends View> extends BasicPopup<View> {
         this.footerView = footerView;
     }
 
+
     /**
      * 设置你自定义的时间是否是有效的
      */
