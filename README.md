@@ -6,13 +6,14 @@
 
 
 ## 注意事项
-setOnTimePickListener选择后的回调/n
-setOnWheelListener滑动后的回调\n
+* setOnTimePickListener选择后的回调
+* setOnWheelListener滑动后的回调
 
    String mHour = "00";
    String mMinute = "00";
 
- public void onTimePicker(View view) {
+   public void onTimePicker(View view) {
+
         final TimePicker picker = new TimePicker(this, TimePicker.HOUR_24);
         picker.setUseWeight(false);
         picker.setCycleDisable(false);
